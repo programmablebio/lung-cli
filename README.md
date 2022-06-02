@@ -8,4 +8,5 @@ Authors: Suhaas Bhat, Garyk Brixi, Pranam Chatterjee
 The inference.py script loads a model, and yields predictions for a given directory of fetal lung images. You can choose the model type - either SVM or RFC.
 The input looks like:
 
-python inference.py [folder of inference data] [svm or rfc]
+'python inference.py [folder of inference data] [svm or rfc]'
+
