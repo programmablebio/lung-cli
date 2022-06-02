@@ -49,7 +49,7 @@ img_data_fourier = np.fft.fft2(img_arrays_list)
 img_data_fourier = np.absolute(img_data_fourier).reshape(len(img_data_fourier),600*800)
 
 ###load the model
-loaded_model = pickle.load(open(f"./model_training_and_weights/successful_{arg_dict['model_type']}_1.sav", 'rb'))
+loaded_model = pickle.load(open(f"./successful_{arg_dict['model_type']}_1.sav", 'rb'))
 
 
 #predict with the model
