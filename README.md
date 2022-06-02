@@ -12,4 +12,4 @@ The input looks like:
 
 So for example, to get predictions with our trained SVM on a folder named "test_images", one would run:
 
-'python inference.py test_images svm'
+`python inference.py test_images svm`
